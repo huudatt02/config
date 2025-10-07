@@ -6,3 +6,5 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
 
+alias ls="eza --icons --group-directories-first"
+
