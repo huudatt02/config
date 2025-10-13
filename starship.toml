@@ -61,12 +61,12 @@ diverged = "[ ${ahead_count}](fg:green bg:slate_blue)[ ${behind_count}](fg
 untracked = "[ ](fg:red bg:slate_blue)"
 stashed = "[ ](fg:blue bg:slate_blue)"
 modified = "[ ](fg:yellow bg:slate_blue)"
-staged = "[ ](fg:green bg:slate_blue)"
-renamed = "[ ](fg:purple bg:slate_blue)"
+staged = "[ ](fg:green bg:slate_blue)"
+renamed = "[ ](fg:purple bg:slate_blue)"
 deleted = "[ ](fg:red bg:slate_blue)"
 
 [nodejs]
-symbol = ""
+symbol = "󰎙"
 style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol ($version)]($style)'
 
