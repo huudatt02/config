@@ -33,10 +33,8 @@ Ubuntu  = " 󰕈"
 NixOS   = " 󱄅"
 Mint    = " 󰣭"
 Macos   = " 󰀵"
-Linux   = " 󰌽"
 Fedora  = " 󰣛"
 Arch    = " 󰣇"
-CentOS  = " "
 Debian  = " 󰣚"
 Redhat  = " 󱄛"
 
@@ -55,15 +53,15 @@ format = '[ $symbol $branch]($style)'
 style = "fg:text_blue bg:slate_blue"
 format = '[$all_status$ahead_behind]($style)'
 conflicted = "[ ](fg:red bg:slate_blue)"
-ahead = "[ ${count}](fg:green bg:slate_blue)"
-behind = "[ ${count}](fg:yellow bg:slate_blue)"
-diverged = "[ ${ahead_count}](fg:green bg:slate_blue)[ ${behind_count}](fg:yellow bg:slate_blue)"
+ahead = "[ 󰄿${count}](fg:green bg:slate_blue)"
+behind = "[ 󰄼${count}](fg:yellow bg:slate_blue)"
+diverged = "[ 󰄿${ahead_count}](fg:green bg:slate_blue)[ 󰄼${behind_count}](fg:yellow bg:slate_blue)"
 untracked = "[ ](fg:red bg:slate_blue)"
-stashed = "[ ](fg:blue bg:slate_blue)"
-modified = "[ ](fg:yellow bg:slate_blue)"
-staged = "[ ](fg:green bg:slate_blue)"
-renamed = "[ ](fg:purple bg:slate_blue)"
-deleted = "[ ](fg:red bg:slate_blue)"
+stashed = "[ 󰅟](fg:blue bg:slate_blue)"
+modified = "[ 󰧞](fg:yellow bg:slate_blue)"
+staged = "[ 󰄬](fg:green bg:slate_blue)"
+renamed = "[ 󰁕](fg:purple bg:slate_blue)"
+deleted = "[ 󰅖](fg:red bg:slate_blue)"
 
 [nodejs]
 symbol = "󰎙"
@@ -89,7 +87,7 @@ format = '[ $symbol( $version)(\(#$virtualenv\))]($style)'
 disabled = false
 time_format = "%R"
 style = "fg:text_gray bg:black_blue"
-format = '[  $time]($style)'
+format = '[ 󰅐 $time]($style)'
 
 [cmd_duration]
 show_milliseconds = true
