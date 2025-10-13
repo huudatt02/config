@@ -28,19 +28,17 @@ disabled = false
 style = "fg:text_black bg:gray"
 
 [os.symbols]
-Windows = "  "
-Ubuntu  = " 󰕈 "
-NixOS   = " 󱄅 "
-SUSE    = "  "
-Mint    = " 󰣭 "
-Macos   = " 󰀵 "
-Linux   = " 󰌽 "
-Gentoo  = " 󰣨 "
-Fedora  = " 󰣛 "
-Arch    = " 󰣇 "
-CentOS  = "  "
-Debian  = " 󰣚 "
-Redhat  = " 󱄛 "
+Windows = " 󰖳"
+Ubuntu  = " 󰕈"
+NixOS   = " 󱄅"
+Mint    = " 󰣭"
+Macos   = " 󰀵"
+Linux   = " 󰌽"
+Fedora  = " 󰣛"
+Arch    = " 󰣇"
+CentOS  = " "
+Debian  = " 󰣚"
+Redhat  = " 󱄛"
 
 [directory]
 style = "fg:text_white bg:blue"
@@ -56,19 +54,19 @@ format = '[ $symbol $branch]($style)'
 [git_status]
 style = "fg:text_blue bg:slate_blue"
 format = '[$all_status$ahead_behind]($style)'
-conflicted = "[  ](fg:red bg:slate_blue)"
-ahead = "[  ${count}](fg:green bg:slate_blue)"
-behind = "[  ${count}](fg:yellow bg:slate_blue)"
-diverged = "[  ${ahead_count}](fg:green bg:slate_blue)[  ${behind_count}](fg:yellow bg:slate_blue)"
-untracked = "[  ](fg:red bg:slate_blue)"
-stashed = "[  ](fg:blue bg:slate_blue)"
-modified = "[  ](fg:yellow bg:slate_blue)"
-staged = "[  ](fg:green bg:slate_blue)"
-renamed = "[ 󰁕 ](fg:purple bg:slate_blue)"
-deleted = "[  ](fg:red bg:slate_blue)"
+conflicted = "[ ](fg:red bg:slate_blue)"
+ahead = "[ ${count}](fg:green bg:slate_blue)"
+behind = "[ ${count}](fg:yellow bg:slate_blue)"
+diverged = "[ ${ahead_count}](fg:green bg:slate_blue)[ ${behind_count}](fg:yellow bg:slate_blue)"
+untracked = "[ ](fg:red bg:slate_blue)"
+stashed = "[ ](fg:blue bg:slate_blue)"
+modified = "[ ](fg:yellow bg:slate_blue)"
+staged = "[ ](fg:green bg:slate_blue)"
+renamed = "[ ](fg:purple bg:slate_blue)"
+deleted = "[ ](fg:red bg:slate_blue)"
 
 [nodejs]
-symbol = ""
+symbol = "󰎙"
 style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol ($version)]($style)'
 
@@ -78,12 +76,12 @@ style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol ($version)]($style)'
 
 [java]
-symbol = ""
+symbol = "󰬷"
 style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol ($version)]($style)'
 
 [python]
-symbol = ""
+symbol = "󰌠"
 style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol( $version)(\(#$virtualenv\))]($style)'
 
@@ -95,7 +93,7 @@ format = '[  $time]($style)'
 
 [cmd_duration]
 show_milliseconds = true
-format = "󰀝  in $duration"
+format = "󰀝 in $duration"
 disabled = false
 show_notifications = true
 min_time_to_notify = 45000
