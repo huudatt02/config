@@ -71,7 +71,7 @@ style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol ($version)]($style)'
 
 [golang]
-symbol = "󰟓"
+symbol = ""
 style = "fg:text_blue bg:dark_blue"
 format = '[ $symbol ($version)]($style)'
 
