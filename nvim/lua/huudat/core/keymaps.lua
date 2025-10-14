@@ -6,8 +6,8 @@ local map = vim.keymap.set
 map("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 -- Save file
-map("n", "<leader>s", "<cmd>w<CR>", { desc = "Save file" })
-map("v", "<leader>s", "<cmd>w<CR>gv", { desc = "Save file in visual mode" })
+map("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" })
+map("v", "<leader>w", "<cmd>w<CR>gv", { desc = "Save file in visual mode" })
 
 -- Quit file
 map("n", "<leader>q", "<cmd>confirm q<CR>", { desc = "Quit file" })
