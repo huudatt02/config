@@ -12,7 +12,6 @@ return {
 		{ "<leader>g", "<cmd>Neotree toggle git_status left<CR>", desc = "Toggle Neo-tree git status" },
 	},
 	opts = {
-		sources = { "filesystem", "git_status" },
 		close_if_last_window = true,
 		popup_border_style = "rounded",
 		enable_git_status = true,
