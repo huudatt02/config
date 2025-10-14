@@ -7,5 +7,4 @@ eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
 
 alias ls="eza --icons --group-directories-first"
-alias lst="eza --icons --group-directories-first --tree"
 
