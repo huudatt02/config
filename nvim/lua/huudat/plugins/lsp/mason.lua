@@ -14,9 +14,13 @@ return {
 		},
 	},
 	config = function(_, opts)
-		require("mason").setup(opts)
+		local mason = require("mason")
+		local mason_lspconfig = require("mason-lspconfig")
+		local mason_tool_installer = require("mason-tool-installer")
 
-		require("mason-lspconfig").setup({
+		mason.setup(opts)
+
+		mason_lspconfig.setup({
 			ensure_installed = {
 				"ts_ls",
 				"gopls",
@@ -27,7 +31,7 @@ return {
 			},
 		})
 
-		require("mason-tool-installer").setup({
+		mason_tool_installer.setup({
 			ensure_installed = {
 				"stylua",
 				"prettierd",
