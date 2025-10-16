@@ -31,13 +31,13 @@ return {
 
 		local diagnostics = {
 			"diagnostics",
-			symbols = { error = "󰅙", warn = "󰀦", info = "󰋼", hint = "󰌶" },
+			symbols = { error = "󰅙", warn = "󰀦", info = "󰋼", hint = "󰠠" },
 			colored = true,
 		}
 
 		local diff = {
 			"diff",
-			symbols = { added = "󰐕", modified = "󰧞", removed = "󰍴" },
+			symbols = { added = "󰐕", modified = "󰧞", removed = "󰅖" },
 			colored = true,
 		}
 
