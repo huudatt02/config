@@ -29,6 +29,8 @@ return {
 				"cssls",
 				"tailwindcss",
 				"emmet_ls",
+				"yamlls",
+				"docker_compose_language_service",
 			},
 		})
 
