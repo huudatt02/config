@@ -15,7 +15,7 @@ return {
 		linters_by_ft = {
 			javascript = { "eslint_d" },
 			typescript = { "eslint_d" },
-			go = { "golangci-lint" },
+			go = { "golangcilint" },
 		},
 	},
 	config = function(_, opts)
