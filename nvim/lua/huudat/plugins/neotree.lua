@@ -66,7 +66,7 @@ return {
 			git_status = {
 				symbols = {
 					added = "󰐕",
-					modified = "󰧞",
+					modified = "󰜥",
 					deleted = "󰅖",
 					renamed = "󰁕",
 					untracked = "󰋖",
