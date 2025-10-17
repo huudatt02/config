@@ -24,19 +24,25 @@ return {
 		},
 	},
 	{
-		"numToStr/Comment.nvim",
-		event = "VeryLazy",
-		opts = {},
-	},
-	{
 		"kylechui/nvim-surround",
 		event = "VeryLazy",
 		version = "*",
 		opts = {},
 	},
 	{
+		"mbbill/undotree",
+		config = function()
+			vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+		end,
+	},
+	{
 		"christoomey/vim-tmux-navigator",
 		lazy = false,
+	},
+	{
+		"numToStr/Comment.nvim",
+		event = "VeryLazy",
+		opts = {},
 	},
 	{
 		"lukas-reineke/indent-blankline.nvim",
