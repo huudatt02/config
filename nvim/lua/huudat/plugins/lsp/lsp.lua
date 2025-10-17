@@ -70,12 +70,14 @@ return {
 					[vim.diagnostic.severity.INFO] = "󰋼 ",
 				},
 			},
+			virtual_text = true,
+			underline = true,
+			update_in_insert = false,
 		})
 
 		for server, config in pairs(opts.servers) do
 			config.capabilities = require("blink.cmp").get_lsp_capabilities(config.capabilities)
 			vim.lsp.config(server, config)
-			vim.lsp.enable(server)
 		end
 	end,
 }
